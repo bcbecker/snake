@@ -6,3 +6,9 @@ This simple game is written using the basic terminal handling module, curses. It
 The escape key (ESC) is used to exit the game, the space bar (SPACE) is used to pause/resume the game, and the up/down/left/right arrow keys are used to navigate the snake.
 
 If the snake's head hits the border, or if it runs over another part of the snake, the game is over.
+
+
+***NOTE***
+I don't believe that the curses module is native to the Windows version of python, so the module must be downloaded using pip or your package manager of choice. If using mac, it should be good to go!
+
+With pip, the command is: python -m pip install windows-curses
