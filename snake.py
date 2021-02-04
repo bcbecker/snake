@@ -76,7 +76,7 @@ while key != ESC:                                   #this will be the main loop 
     if key == curses.KEY_LEFT:
         x -= 1
         
-    snake_body.insert(0, (y,x))                  #add these coords to current snake position (could be optimized with append vs insert)
+    snake_body.insert(0, (y,x))              #add these coords to current snake position (could be optimized with append vs insert)
         
     #check if snake hits border coords
     if y == 0: game_over()
